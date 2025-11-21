@@ -1,0 +1,230 @@
+[{
+  "_id": {
+    "$oid": "6906c560ed8b20ca9473f3a0"
+  },
+  "url": "https://torontowatchexchange.com/wp-content/uploads/2024/02/Rolex-Submariner-Date-41mm-Stainless-Steel-2023-scaled.jpg",
+  "name": "Submariner Date",
+  "brand": "Rolex",
+  "price": 9150,
+  "description": "The Oyster Perpetual Submariner Date is the reference watch among divers' watches. It features a 41 mm case and a black dial.",
+  "features": [
+    "Waterproof to 300 meters",
+    "Unidirectional rotatable bezel",
+    "Chromalight display",
+    "Oyster bracelet",
+    "Caliber 3235 movement"
+  ],
+  "category": "Sports",
+  "inStock": true,
+  "image": "https://content.rolex.com/dam/watches/family-pages/submariner/family-page/submariner_m126610ln-0002_1707xa_001.png",
+  "updatedAt": {
+    "$date": "2025-11-02T02:53:54.753Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6906c560ed8b20ca9473f3a1"
+  },
+  "url": "https://www.watchdavid.com/wp-content/uploads/2021/12/OMEGA-Speedmaster-Moonwatch-Professional-Chronograph-06.jpg",
+  "name": "Speedmaster Moonwatch Professional",
+  "brand": "Omega",
+  "price": 6300,
+  "description": "The legendary Speedmaster Moonwatch Professional is presented in a 42 mm stainless steel case with a hesalite crystal.",
+  "features": [
+    "Manual-winding chronograph",
+    "Hesalite crystal",
+    "Black dial",
+    "Stainless steel bracelet",
+    "Caliber 3861 movement"
+  ],
+  "category": "Sports",
+  "inStock": true,
+  "image": "https://www.omegawatches.com/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/o/m/omega-speedmaster-moonwatch-professional-31030425001001-1.png",
+  "updatedAt": {
+    "$date": "2025-11-02T02:54:54.929Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6906c560ed8b20ca9473f3a2"
+  },
+  "url": "https://images.secondmovement.com/media/catalog/product/cache/105b3c9229095e8c1e373d2e9464b4da/t/a/tag-heuer-carrera-cv2a1r-ba0799-powg18a-multiple-1.jpg",
+  "name": "Carrera Calibre 16 Day-Date",
+  "brand": "Tag Heuer",
+  "price": 2950,
+  "description": "The Carrera Calibre 16 Day-Date is a 41 mm chronograph with a stainless steel case and a black dial.",
+  "features": [
+    "Automatic chronograph",
+    "Day and date display",
+    "Sapphire crystal",
+    "Water resistant to 100m",
+    "Calibre 16 movement"
+  ],
+  "category": "Sports",
+  "inStock": true,
+  "image": "https://www.tagheuer.com/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/c/v/cv2a1ab.ft6038.png",
+  "updatedAt": {
+    "$date": "2025-11-02T02:56:40.438Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6906c560ed8b20ca9473f3a3"
+  },
+  "url": "https://www.breitling.com/api/image-proxy/www-breitling.eu.saleor.cloud/media/thumbnails/products/ab0121211b1x1-on-wrist_16cd96a5_thumbnail_1024.webp?imwidth=2040&format=auto",
+  "name": "Navitimer B01 Chronograph 43",
+  "brand": "Breitling",
+  "price": 8100,
+  "description": "The Navitimer B01 Chronograph 43 features a 43 mm stainless steel case and the iconic circular slide rule bezel.",
+  "features": [
+    "Manufacture Breitling Caliber 01",
+    "Chronograph",
+    "Sapphire crystal",
+    "Water resistant to 30m",
+    "Stainless steel bracelet"
+  ],
+  "category": "Luxury",
+  "inStock": true,
+  "image": "https://www.breitling.com/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/a/b/ab0137211b1a1_1.png",
+  "updatedAt": {
+    "$date": "2025-11-02T03:00:09.476Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6906c560ed8b20ca9473f3a4"
+  },
+  "url": "https://watchesbysjx.com/wp-content/uploads/2017/04/Patek-Calatrava-ref.-6006G-1.jpg",
+  "name": "Calatrava Ref. 6006G",
+  "brand": "Patek Philippe",
+  "price": 28470,
+  "description": "The Calatrava Ref. 6006G is an elegant white gold timepiece with a 39 mm case and a silvery opaline dial.",
+  "features": [
+    "Automatic movement",
+    "Date display",
+    "Sapphire crystal",
+    "Water resistant to 30m",
+    "White gold case"
+  ],
+  "category": "Luxury",
+  "inStock": true,
+  "image": "https://www.patek.com/content/dam/patek-com/images/watches/6006G-001_6006G-001.png",
+  "updatedAt": {
+    "$date": "2025-11-02T03:01:16.775Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6906c560ed8b20ca9473f3a5"
+  },
+  "url": "https://img.chrono24.com/images/uhren/25614084-279uvoi63jb9c5lfv78zbnfj-ExtraLarge.jpg",
+  "name": "Datejust 41",
+  "brand": "Rolex",
+  "price": 8950,
+  "description": "The Oyster Perpetual Datejust 41 is presented in a 41 mm case in Rolesor, a combination of Oystersteel and 18 ct yellow gold.",
+  "features": [
+    "Waterproof to 100 meters",
+    "Fluted bezel",
+    "President bracelet",
+    "Cyclops lens",
+    "Caliber 3235 movement"
+  ],
+  "category": "Luxury",
+  "inStock": true,
+  "image": "https://content.rolex.com/dam/watches/family-pages/datejust/family-page/datejust_m126303-0001_1707xa_001.png",
+  "updatedAt": {
+    "$date": "2025-11-02T03:01:56.611Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6906c560ed8b20ca9473f3a6"
+  },
+  "url": "https://img.chrono24.com/images/uhren/39615382-2lycd1j3k1d4npsjd4hefkrd-ExtraLarge.jpg",
+  "name": "Seamaster Diver 300M",
+  "brand": "Omega",
+  "price": 5100,
+  "description": "The Seamaster Diver 300M is a classic diving watch with a 42 mm stainless steel case and a ceramic bezel.",
+  "features": [
+    "Waterproof to 300 meters",
+    "Ceramic bezel",
+    "Helium escape valve",
+    "Master Chronometer certified",
+    "Caliber 8800 movement"
+  ],
+  "category": "Sports",
+  "inStock": true,
+  "image": "https://www.omegawatches.com/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/o/m/omega-seamaster-diver-300m-21030422001001-1.png",
+  "updatedAt": {
+    "$date": "2025-11-02T03:03:02.259Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6906c560ed8b20ca9473f3a7"
+  },
+  "url": "https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwb1fb9b59/images/collections/aquaracer/diving/professional-300/1-USP/TH-revamp-aquaracer-professional-300-blue-2.jpg",
+  "name": "Aquaracer Professional 300",
+  "brand": "Tag Heuer",
+  "price": 2850,
+  "description": "The Aquaracer Professional 300 is a 43 mm diving watch with a stainless steel case and a blue dial.",
+  "features": [
+    "Water resistant to 300m",
+    "Ceramic bezel",
+    "Sapphire crystal",
+    "Calibre 5 automatic",
+    "Rubber strap"
+  ],
+  "category": "Sports",
+  "inStock": true,
+  "image": "https://www.tagheuer.com/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/w/b/wbp2010.ba0632.png",
+  "updatedAt": {
+    "$date": "2025-11-02T03:04:42.066Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6906c560ed8b20ca9473f3a8"
+  },
+  "url": "https://duxwatches.com/wp-content/uploads/2025/01/Breitling-Superocean-heritage-42-ref-UB2010-Dux-Watches-DR01323-Photo-01.jpg",
+  "name": "Superocean Heritage 42",
+  "brand": "Breitling",
+  "price": 4350,
+  "description": "The Superocean Heritage 42 is a 42 mm diving watch with a stainless steel case and a black dial.",
+  "features": [
+    "Water resistant to 200m",
+    "Ceramic bezel",
+    "Sapphire crystal",
+    "Caliber 17 automatic",
+    "Stainless steel bracelet"
+  ],
+  "category": "Sports",
+  "inStock": true,
+  "image": "https://www.breitling.com/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/a/b/a17321a11c1s1_1.png",
+  "updatedAt": {
+    "$date": "2025-11-02T03:05:26.736Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6906c560ed8b20ca9473f3a9"
+  },
+  "url": "https://watchesbysjx.com/wp-content/uploads/2016/10/Patek-Philippe-Nautilus-Ref.-5711-1P-40th-Anniversary-platinum-1.jpg",
+  "name": "Nautilus Ref. 5711/1A",
+  "brand": "Patek Philippe",
+  "price": 34500,
+  "description": "The Nautilus Ref. 5711/1A is a legendary stainless steel sports watch with a 40 mm case and a blue dial.",
+  "features": [
+    "Automatic movement",
+    "Date display",
+    "Sapphire crystal",
+    "Water resistant to 60m",
+    "Stainless steel bracelet"
+  ],
+  "category": "Sports",
+  "inStock": true,
+  "image": "https://www.patek.com/content/dam/patek-com/images/watches/5711-1A-010_5711-1A-010.png",
+  "updatedAt": {
+    "$date": "2025-11-02T03:06:30.181Z"
+  }
+}]

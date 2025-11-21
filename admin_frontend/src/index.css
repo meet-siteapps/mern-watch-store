@@ -1,0 +1,257 @@
+@import "tailwindcss";
+
+/* Custom Animations */
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-in-out forwards;
+  }
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-in-out forwards;
+  }
+  .delay-200 {
+    animation-delay: 0.2s;
+  }
+  .delay-500 {
+    animation-delay: 0.5s;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+@keyframes shine {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-shine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  transform: skewX(-20deg);
+  animation: shine 1.5s infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 6s ease-in-out infinite;
+}
+
+/* contactus section css */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-fade-in-delay {
+  animation: fadeIn 0.8s ease-out forwards;
+  animation-delay: 0.4s;
+}
+
+.animate-fade-in-delay-long {
+  animation: fadeIn 0.8s ease-out forwards;
+  animation-delay: 0.8s;
+}
+
+.animate-fade-in-delay-longer {
+  animation: fadeIn 0.8s ease-out forwards;
+  animation-delay: 1.2s;
+}
+
+
+/* products page css */
+
+@keyframes gradientX {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradientX 30s ease infinite;
+}
+
+
+/* cart css */
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.4; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 5s ease-in-out infinite;
+}
+
+
+/* Underline animation on load */
+@keyframes underlineGrow {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+.animate-underline {
+  animation: underlineGrow 1s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+/* Button pulsing blue glow */
+@keyframes glowPulseBlue {
+  0% { box-shadow: 0 0 10px 2px rgba(59, 130, 246, 0.35); }
+  50% { box-shadow: 0 0 20px 6px rgba(59, 130, 246, 0.65); }
+  100% { box-shadow: 0 0 10px 2px rgba(59, 130, 246, 0.35); }
+}
+.animate-glow-blue {
+  animation: glowPulseBlue 2.5s infinite ease-in-out;
+}
+
+/* Fade-in animations */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeInDelay { animation: fadeIn 1s ease-out forwards; animation-delay: 0.2s; }
+.animate-fadeInDelay2 { animation: fadeIn 1s ease-out forwards; animation-delay: 0.7s; }
+.animate-fadeInDelay3 { animation: fadeIn 1s ease-out forwards; animation-delay: 1.2s; }
+
+/* Floating animation for heading */
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+.animate-float {
+  animation: floatY 4s ease-in-out infinite;
+}
+
+
+/* discount loop strip   */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Pulsing animation for emojis */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.animate-pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* Bouncing animation for emojis */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.animate-bounce {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+/* Hover effect for offer groups */
+.group:hover .animate-pulse {
+  animation-duration: 1s;
+}
+
+.group:hover .animate-bounce {
+  animation-duration: 0.8s;
+}
+
+/* Gradient text animation */
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.text-transparent.bg-clip-text {
+  background-size: 200% 200%;
+  animation: gradient-shift 4s ease infinite;
+}
+
+
+@keyframes slideIn {
+  from { 
+    opacity: 0; 
+    transform: translateX(100%); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateX(0); 
+  }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.animate-float-slow {
+  animation: float-slow 4s ease-in-out infinite;
+}
+
+@keyframes underline {
+  to { width: 100%; }
+}
+
+.animate-underline {
+  animation: underline 0.5s ease forwards;
+}
+
+@keyframes glow-blue {
+  0%, 100% { box-shadow: 0 0 5px rgba(59, 130, 246, 0.5); }
+  50% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.8); }
+}
+
+.animate-glow-blue {
+  animation: glow-blue 2s infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.3; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
+}
