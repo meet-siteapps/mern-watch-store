@@ -37,7 +37,8 @@ export default function ProductDetail() {
       
       try {
         // Fetch product from backend API - updated URL to match the pattern
-        const response = await axios.get(`http://localhost:3000/watches/${id}`);
+        // const response = await axios.get(`http://localhost:3000/watches/${id}`);
+        const response = await axios.get(`https://mern-watch-store.onrender.com/watches/${id}`);
         
         // Check if response is successful
         if (response.data.status === "Success") {

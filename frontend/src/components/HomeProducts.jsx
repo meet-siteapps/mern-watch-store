@@ -25,7 +25,7 @@ export default function HomeProducts() {
         setError(null);
         
         // Make API request to get recent products
-        const response = await axios.get("http://localhost:3000/watches/get-recent-products");
+        const response = await axios.get("https://mern-watch-store.onrender.com/watches/get-recent-products");
         
         // Check if response is successful
         if (response.data.status === "Success") {

@@ -58,7 +58,8 @@ export default function Products() {
         setError(null);
         
         // Make API request using Axios
-        const response = await axios.get("http://localhost:3000/watches/get-all-products");
+        // const response = await axios.get("http://localhost:3000/watches/get-all-products");
+        const response = await axios.get("https://mern-watch-store.onrender.com/get-all-products");
         
         // Check if response is successful
         if (response.data.status === "Success") {
