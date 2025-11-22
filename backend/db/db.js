@@ -3,8 +3,8 @@ require("dotenv").config();
 
 const db = async () => {
   try {
-    await mongoose.connect(`${process.env.URI}Watch-house`, {
-// await mongoose.connect("mongodb://127.0.0.1:27017/Watch-house", {
+    // await mongoose.connect(`${process.env.URI}Watch-house`, {
+await mongoose.connect("mongodb://127.0.0.1:27017/Watch-house", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
