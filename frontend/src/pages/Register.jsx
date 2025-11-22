@@ -23,7 +23,7 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
-    
+
     // Validate all fields
     if (
       values.username === "" ||
@@ -34,43 +34,50 @@ export default function Register() {
       setError("All fields are required");
       return;
     }
-    
+
     // Validate passwords match
     if (values.password !== confirmPassword) {
       setError("Passwords do not match");
       return;
     }
-    
+
     // Validate password length
     if (values.password.length < 6) {
       setError("Password must be at least 6 characters");
       return;
     }
-    
+
     // Validate terms agreement
     if (!agreeToTerms) {
       setError("You must agree to the terms and conditions");
       return;
     }
-    
+
     try {
       setLoading(true);
-      
+
       // Make API call with Axios
+      // const response = await axios.post(
+      //   "http://localhost:3000/sign-up",
+      //   values
+      // );
       const response = await axios.post(
-        "http://localhost:3000/sign-up",
+        "https://mern-watch-store.onrender.com/sign-up",
         values
       );
-      
+
       console.log("Registration response:", response.data);
-      
+
       // Redirect to login page after successful registration
       navigate("/login");
     } catch (err) {
       console.error("Registration error:", err);
-      
+
       // Extract error message from response if available
-      const errorMessage = err.response?.data?.message || err.response?.data?.error || "Registration failed. Please try again.";
+      const errorMessage =
+        err.response?.data?.message ||
+        err.response?.data?.error ||
+        "Registration failed. Please try again.";
       setError(errorMessage);
     } finally {
       setLoading(false);
@@ -90,7 +97,7 @@ export default function Register() {
           </h1>
           <p className="text-gray-400 mt-2">Join Lux Watches today</p>
         </div>
-        
+
         {error && (
           <div className="mb-4 p-3 bg-red-900 bg-opacity-50 border border-red-700 rounded-lg text-red-200 text-center">
             {error}
@@ -165,11 +172,17 @@ export default function Register() {
             />
             <label htmlFor="terms" className="text-gray-300 text-sm">
               I agree to the{" "}
-              <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+              <a
+                href="#"
+                className="text-blue-400 hover:text-blue-300 transition-colors"
+              >
                 Terms of Service
               </a>{" "}
               and{" "}
-              <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+              <a
+                href="#"
+                className="text-blue-400 hover:text-blue-300 transition-colors"
+              >
                 Privacy Policy
               </a>
             </label>
@@ -180,8 +193,8 @@ export default function Register() {
             type="submit"
             disabled={loading}
             className={`w-full py-3 rounded-xl text-white font-bold shadow-lg transition duration-300 relative overflow-hidden ${
-              loading 
-                ? "bg-gradient-to-r from-gray-700 to-gray-600 cursor-not-allowed" 
+              loading
+                ? "bg-gradient-to-r from-gray-700 to-gray-600 cursor-not-allowed"
                 : "bg-gradient-to-r from-blue-600 to-cyan-500 hover:scale-105 hover:brightness-110"
             }`}
           >

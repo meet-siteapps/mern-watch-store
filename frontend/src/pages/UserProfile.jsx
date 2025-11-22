@@ -51,7 +51,8 @@ const EnhancedProfile = () => {
     try {
       setOrdersLoading(true);
       const token = localStorage.getItem('token');
-      const response = await fetch(`http://localhost:3000/orders/get-order-history`, {
+      // const response = await fetch(`http://localhost:3000/orders/get-order-history`, {
+      const response = await fetch(`https://mern-watch-store.onrender.com/orders/get-order-history`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
