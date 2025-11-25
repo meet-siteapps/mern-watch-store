@@ -57,8 +57,8 @@ app.get("/", (req, res) => {
 });
 
 // Route configuration
-app.use("/", userRoutes);
 app.use("/watches", watchRoutes);
+app.use("/", userRoutes);
 app.use("/favorites", favoriteRoutes); // Updated route path
 app.use("/cart", cartRoutes);
 app.use("/checkout", checkoutRoutes); // Add this line
