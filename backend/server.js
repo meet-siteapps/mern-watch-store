@@ -14,17 +14,18 @@ const allowedOrigins = [
 
 // More permissive CORS configuration for development
 app.use(cors({
-  origin: function (origin, callback) {
+  origin: 
+  // function (origin, callback) {
     // Allow requests with no origin (like mobile apps, Postman, etc.)
-    if (!origin) return callback(null, true);
-    
-    if (allowedOrigins.indexOf(origin) !== -1) {
-      return callback(null, true);
-    } else {
-      console.log('CORS blocked origin:', origin);
-      return callback(new Error('Not allowed by CORS'));
-    }
-  },
+    // if (!origin) return callback(null, true);
+    // if (allowedOrigins.indexOf(origin) !== -1) {
+      // return callback(null, true);
+    // } else {
+      // console.log('CORS blocked origin:', origin);
+      // return callback(new Error('Not allowed by CORS'));
+    // }
+  // },
+  "*",
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   // Add 'watchid' to the allowed headers
