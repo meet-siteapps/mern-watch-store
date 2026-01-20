@@ -45,7 +45,7 @@ const handleSubmit = async (e) => {
       console.log("Admin login successful:", response.data);
       
       // Redirect to admin dashboard
-      navigate("/admin/dashboard");
+      navigate("/");
 
       // Refresh tab after navigation
       setTimeout(() => {
