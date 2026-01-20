@@ -2,6 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
 baseURL: 'https://mern-watch-store.onrender.com',
+// baseURL: 'http://localhost:5173/',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json'

@@ -4,10 +4,9 @@ posrman routes
 
 user json format
   {
-    "username":"meet",
-    "email":"meet@gmail.com",
-    "password":"meet098",
-    "address":"qwerty"
+    "username":"Meet",
+    "email":"Meet@gmail.com",
+    "password":"Meet@#",
   }
   {
     "username": "Admin",
@@ -39,4 +38,3 @@ new watch adding json wrap
 
 
 
-_Smeet0502@ my pass key

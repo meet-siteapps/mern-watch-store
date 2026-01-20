@@ -44,7 +44,7 @@ api.interceptors.response.use(
         case 401:
           localStorage.removeItem('token');
           localStorage.removeItem('userData');
-          window.location.href = '/login';
+          window.location.href = '/admin/login';
           break;
         case 403:
           console.error('Forbidden access:', data);

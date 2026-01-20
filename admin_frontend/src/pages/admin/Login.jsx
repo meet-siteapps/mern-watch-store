@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import axios from "axios";
+import api from "../../utils/api";
 
 export default function AdminLogin() {
   const [values, setValues] = useState({
@@ -29,7 +29,7 @@ const handleSubmit = async (e) => {
     
     setLoading(true);
     
-    const response = await axios.post("http://localhost:3000/sign-in", values);
+    const response = await api.post("/sign-in", values);
     
     if (response.data && response.data.token && response.data.username) {
       // Check if user has admin role

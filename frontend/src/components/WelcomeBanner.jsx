@@ -197,7 +197,7 @@ export default function WelcomeBanner({ user, onClose }) {
       </div>
       
       {/* Animation styles */}
-      <style jsx>{`
+      <style>{`
         @keyframes fadeIn {
           from { opacity: 0; }
           to { opacity: 1; }
