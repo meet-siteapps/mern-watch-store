@@ -15,7 +15,6 @@ A full-stack MERN e-commerce platform for luxury watch sales with a separate adm
 - **Frontend**: React 19, Vite, Tailwind CSS, Axios
 - **Backend**: Node.js, Express.js, MongoDB Atlas
 - **Auth**: JWT + bcryptjs
-- **Payments**: Stripe
 
 ## Local Setup
 
