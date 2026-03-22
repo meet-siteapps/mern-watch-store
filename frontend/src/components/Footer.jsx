@@ -13,9 +13,7 @@ const Footer = () => {
   
   // Project team members
   const teamMembers = [
-    { name: 'Jenil Dhankra', role: 'Frontend Developer' },
-    { name: 'Meet Savaliya', role: 'Backend Developer' },
-    { name: 'Harsh Vaviya', role: 'Project Lead' }
+    { name: 'Meet Savaliya', role: 'Full Stack Developer' }
   ];
   
   // Contact form state
